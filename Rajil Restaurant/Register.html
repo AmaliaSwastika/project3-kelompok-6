@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lan="en" and dir="ltr">
+
+<head>
+    <title>Register</title>
+    <link rel="shortcut icon" href="Rajill.png">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="RegisterStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <script src ="RegisterScript.js"> </script>
+</head>
+
+<body>
+
+
+<!-- HEADER -->
+
+<div class="header">
+    <nav>
+        <a href="#" class="logo"><img src="Rajil.png"></a>
+        <ul>
+            <li class="active"><a href="Rajil Restaurant.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="Menu.html">MENU</a></li>
+            <li><a href="Outlet.html">OUTLETS</a></li>
+            <li><a href="Promo.html">PROMO</a></li>
+        </ul>
+        <a href="Login.html" class="btn">RESERVATION</a>
+    </nav>
+</div>
+
+
+<!-- GET KNOW US -->
+
+<div>
+    <ul class="sci">
+        <li>
+            <a href="https://wa.me/6282112400042"><img src="Whatsapp.png"></a>
+        </li>
+
+        <li>
+            <a href="https://instagram.com/rajilrestaurant?igshid=YmMyMTA2M2Y="><img src="Instagram.png"></a>
+        </li>
+
+        <li>
+            <a href="https://twitter.com/rajilrestaurant?s=21&t=8iWkeYv6NyW9M3yOYkgfpw"><img src="Twitter.png"></a>
+        </li>
+    </ul>
+</div>
+</div>
+
+
+<!-- REGISTER -->
+
+<form class="box" action="Register.html" method="POST">
+
+    <h1 align="center">REGISTER</h1>
+        <tr>
+            <td><label for="NAMA LENGKAP">FULL NAME</td>
+            <td>:</label> <input type="text" name="" placeholder="Enter Full Name" id="FULLNAME" onkeydown="return /[a-z A-Z ]/i.test(event.key)"></td>
+        </tr>
+
+        <tr>
+            <td><label for="EMAIL">EMAIL</td>
+            <td>:</label> <input type="text" name="" placeholder="Example : amel@gmail.com" id="EMAIL"></td>
+        </tr>
+
+        <tr>
+            <td><label for="NOMER TELPON">NUMBER PHONE </td>
+            <td> :</label> <input type="number" name="" placeholder="Enter Number Phone" id="NUMBERPHONE"></td>
+        </tr>
+           
+        <tr>
+            <td><label for="USERNAME">USERNAME</td>
+            <td>:</label> <input type="text" name="" placeholder="Enter User Name" id="USERNAME"></td>
+        </tr>
+        
+        <tr>
+            <td><label for="password">PASSWORD</td><td> : </label><input type="password" name="" placeholder="Enter Password" id="PASSWORD"></td>
+        </tr>
+
+    <input type="button" name="" value="SUBMIT" onclick="validate()">
+</form>
+
+
+<!-- FOOTER -->
+
+<footer>
+    <div class="container">
+        <small>Copyright &copy; 2022 - RAJIL RESTAURANT. All Rights Reserved.</small>
+    </div>
+</footer>
+
+    </body>
+</html>
