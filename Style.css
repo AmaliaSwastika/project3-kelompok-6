@@ -1,0 +1,167 @@
+/* HEADER */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 150vh;
+    width: 100%;
+    background-image: url(Restaurant.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    margin: -135px -50px -180px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+    width: 100%;
+    margin: auto;
+    line-height: 30px;
+    position: sticky;
+    top: 0;
+    background: black;
+    z-index: 1;
+    border-bottom: 1px solid #364f6b;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #00D2EB;
+    transition: .4s;
+}
+
+.btn {
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+
+/* CONTENT */
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+#opening {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 40px;
+}
+
+#tagline {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+
+/* GET KNOW US */
+
+.sci {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sci li {
+    list-style: none;
+    transition: 0.5s;
+}
+
+.sci li:hover {
+    transform: translateX(-15px);
+}
+
+.sci li a {
+    display: inline-block;
+    margin: 5px;
+    transform: scale(0.6);
+    filter: invert(1);
+}
+
+
+/* ABOUT */
+
+.About {
+    width: 100%;
+    padding: 100px;
+    background-image: url(https://img.freepik.com/free-photo/black-concrete-texture_125540-1735.jpg?w=1380&t=st=1654702655~exp=1654703255~hmac=c1c4377862a14f638eed04810a8df85f465b5ac8d602d5f51264d1c7fcb81a98);
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text h2 {
+    color: white;
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.text p {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+
+
+/* FOOTER */
+
+footer {
+    padding: 30px 0;
+    background-color: #191919;
+    color: #fff;
+    text-align: center;
+}
